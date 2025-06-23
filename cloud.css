@@ -406,3 +406,60 @@ header .navbar ul li a:hover {
 }
 
 /* Contact End */
+
+
+
+@media screen and (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+
+  .home .image img {
+    margin: 2rem auto;
+    width: 90%;
+    height: auto;
+  }
+
+  .home .content h2 {
+    font-size: 3.2rem;
+  }
+
+  .home .content p {
+    font-size: 1.6rem;
+  }
+
+  .menu .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu .content #breakfast,
+  .menu .content #Lunch,
+  .menu .content #dinner {
+    width: 90%;
+  }
+
+  .about .image img {
+    width: 90%;
+    height: auto;
+    border-radius: 15%;
+  }
+
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  header .navbar ul {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  header .navbar li {
+    margin: 1rem 0;
+  }
+}
+
